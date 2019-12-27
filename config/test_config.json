@@ -1,0 +1,5 @@
+{
+    "load_file": "models/morphemes-3-7-192-1.json",
+    "test_file": "data/test_Tikhonov_shuffled.txt",
+    "outfile": "results/3-7-192-1_predicted.txt"
+}

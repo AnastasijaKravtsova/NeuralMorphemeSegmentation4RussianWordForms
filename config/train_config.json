@@ -1,0 +1,11 @@
+{
+    "train_file": "data/train_Tikhonov_shuffled.txt",
+    "model_params": {"conv_layers": 3, "window_size": [7], "filters_number": 192,
+                     "dense_output_units": 64, "nepochs": 50, "validation_split": 0.2,
+                     "early_stopping": 5, "dropout": 0.2,
+                     "models_number": 1},
+    "save_file": "models/morphemes-3-7-192-1.json",
+    "model_file": "models/morphemes-model-3-7-192-1.hdf5",
+    "test_file": "data/test_Tikhonov_shuffled.txt",
+    "outfile": "results/3-7-192-1_predicted.txt"
+}
